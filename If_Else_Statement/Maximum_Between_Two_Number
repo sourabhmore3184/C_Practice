@@ -1,0 +1,40 @@
+#include<stdio.h>
+int maxtwo(int a,int b)
+{
+    if(a>b)
+    {
+        return 0;
+
+    }
+    else
+    {
+        return 1;
+
+    }
+
+}
+int main()
+{
+    int n1=0,n2=0,result=0,a=0,b=0;
+
+    printf("Enter Two Number  ");
+    scanf("%d%d",&n1,&n2);
+
+    result=maxtwo(n1,n2);
+
+   if (result==0)
+   {
+       printf("Number %d Is Greater",n1);
+   }
+   else
+   {
+       printf("Number %d Is Greater",n2);
+   }
+
+
+
+
+
+
+    return 0;
+}
